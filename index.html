@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="./hw.js" defer></script>
-    <label for = 'To-do'>Checklist</label><br>
 </head>
 <body>
-    <main><ul id='task-container'></ul></main>
-    <form action="" id="To-Do-Field" required>
-    <input id="Add-list-button" onclick="Addtothelist();" type="button" value="Add to the list">
-    <div id="todo-list"></div>
+    <form id="todoList">
+        <h1>Chores:<h1>
+          <input id="choreInput">
+          <button type="button" onclick="chore()">Add Chore</button>
+      </form>
+      <div id="chore"></div>
+      <!-- <form id="todoForm">
+        <h1>To Do List:<h1>
+          <input id="todoInput">
+          <button type="button" onclick="todoList()">Add Item</button>
+      </form>
+      <div id="todoList">
+      </div> -->
 </body>
 </html>
